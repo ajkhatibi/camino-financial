@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/NavBar.css';
 
 const NavBar = () => {
     return (
@@ -12,13 +13,13 @@ const NavBar = () => {
             </nav>
             <ul className="nav justify-content-center">
                 <li className="nav-item">
-                    <a className="nav-link active">Today</a>
+                    <a className="nav-link" id="link">Today</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link">Week</a>
+                    <a className="nav-link" id="link">Week</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link">Month</a>
+                    <a className="nav-link" id="link">Month</a>
                 </li>
             </ul>
         </div>

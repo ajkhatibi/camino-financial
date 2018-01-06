@@ -7,9 +7,10 @@ class Chart extends Component {
         this.props.dataActions();
     }
     render(){
-        console.log('loading data to use for a graph', this.props.data)
         return (
-            <h1>hello</h1>
+            <div>
+            
+            </div>
         )
     }
 }
